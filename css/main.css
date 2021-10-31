@@ -332,5 +332,15 @@ li {
   justify-content: center;
   align-items: center;
   height: 800px;
-  background-color: orange;
+}
+
+.contact-me header {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+  text-align: center;
+  background-color: white;
 }
