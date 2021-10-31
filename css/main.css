@@ -6,6 +6,45 @@
   box-sizing: border-box;
 }
 
+.btn-1 {
+  padding: 12px;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: bold;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  margin-top: 10px;
+  align-self: flex-start;
+  color: white;
+  background-color: #f55800;
+  transition: all 0.1s ease-in;
+}
+.btn-1.disable {
+  background-color: #f4f1f0;
+  color: #1c1a19;
+}
+
+.btn-1:hover {
+  color: #f55800;
+  border: 1px solid #f55800;
+  box-sizing: border-box;
+  background-color: #fff5e1;
+}
+.btn-1:hover.disable {
+  background-color: #f4f1f0;
+  color: #1c1a19;
+}
+
+.btn-1:active {
+  background: #e05304;
+  color: white;
+}
+.btn-1:active.disable {
+  background-color: #f4f1f0;
+  color: #1c1a19;
+}
+
 a {
   text-decoration: none;
 }
@@ -378,4 +417,16 @@ li {
   border: 2px none #ccc;
   background-color: #fbf8f7;
   resize: none;
+}
+
+.contact-me form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.contact-me form .btn-1 {
+  align-self: center;
 }
