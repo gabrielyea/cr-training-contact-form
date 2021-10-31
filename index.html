@@ -297,7 +297,17 @@
             so if you'd like to chat please get in touch.
           </h3>
         </header>
-        <h1>Concat goes here</h1>
+        <form onsubmit="validate()" action="https://formspree.io/f/mbjqyrqj" method="POST">
+          <fieldset tabindex="0">
+            <input class="" type="text" name="name"
+              id="fullname" required maxlength="30" placeholder="Full name">
+            <input type="email" name="_replyto" id="email"
+              required placeholder="Email address">
+            <textarea name="tarea" required maxlength="500" placeholder="Enter text here"></textarea>
+          </fieldset>
+          <button id="sub-btn" type="submit" class="">Get in touch</button>
+            <!-- <div class="popup"><span class="popuptext" id="myPopup"></span></div> -->
+        </form>
       </div>
     </main>
 
