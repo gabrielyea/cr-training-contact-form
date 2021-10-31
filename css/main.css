@@ -344,3 +344,20 @@ li {
   text-align: center;
   background-color: white;
 }
+
+.contact-me fieldset {
+  border: 0;
+}
+.contact-me fieldset input {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #979493;
+  width: 100%;
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: #dbd8d7;
+  padding: 24px;
+}
